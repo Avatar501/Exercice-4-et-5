@@ -6,9 +6,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function ScoreBoard() {
     const [participants, setParticipants] = useState([
-        { id: 1, name: 'Alice', score: 5 },
-        { id: 2, name: 'Bob', score: 8 },
-        { id: 3, name: 'Charlie', score: 3 },
+        { id: 1, name: 'Alice', score: 0 },
+        { id: 2, name: 'Bob', score: 0 },
+        { id: 3, name: 'Charlie', score: 0 },
     ]);
 
     const [sortOrder, setSortOrder] = useState('asc');
